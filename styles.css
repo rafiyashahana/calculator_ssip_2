@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@300;400;700&family=Poppins:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+:root {
+  --grey-light: #d4d4d2;
+  --grey-dark: #505050;
+  --orange: #ff9500;
+  --dark: #1c1c1c;
+  --white: #ffffff;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5rem;
+}
+.body {
+  position: relative;
+}
+.container {
+  max-width: 600px;
+  max-height: 800px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  border: solid 0.1rem var(--dark);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.result {
+  text-align: end;
+  padding: 2rem 1rem 0;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding: 0 1rem 2rem;
+}
