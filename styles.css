@@ -15,7 +15,7 @@
 }
 
 .container {
-  max-width: 600px;
+  max-width: 400px;
   max-height: 800px;
   position: absolute;
   top: 50%;
@@ -74,7 +74,8 @@
   background: var(--grey-dark);
 }
 
-.btn-calc {
+.btn-op,
+.equals {
   color: var(--white);
   background: var(--orange);
 }
