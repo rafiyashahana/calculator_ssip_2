@@ -15,7 +15,7 @@
 }
 
 .container {
-  max-width: 400px;
+  max-width: 350px;
   max-height: 800px;
   position: absolute;
   top: 50%;
@@ -28,14 +28,15 @@
   flex-direction: column;
   padding: 2rem 1rem;
   background: var(--dark);
-  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.1);
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.7);
 }
 
 .result {
-  text-align: end;
   padding: 4rem 1rem 0.5rem;
+  text-align: right;
   font-size: 2.5rem;
   color: var(--white);
+  min-height: 140px;
 }
 
 .buttons {

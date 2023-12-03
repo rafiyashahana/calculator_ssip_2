@@ -13,6 +13,8 @@ buttons.forEach((btn) => {
       output = eval(output.replace("%", "/100"));
     } else if (btnVal === "AC") {
       output = "";
+    } else if (btnVal == "toggle") {
+      output = -output;
     } else {
       if (output === "" && op.includes(btnVal)) return;
       output += btnVal;
